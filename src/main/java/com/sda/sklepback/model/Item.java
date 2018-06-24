@@ -22,4 +22,7 @@ public class Item {
     @Column(name = "Name")
     private String name;
 
+    @Column(name = "Price")
+    private double price;
+
 }
