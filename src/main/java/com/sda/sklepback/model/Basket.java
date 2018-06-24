@@ -12,9 +12,8 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table (name="Tasks")
-public class Item {
-
+@Table(name="Baskets")
+public class Basket {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
@@ -25,4 +24,9 @@ public class Item {
 
     @Column(name = "price")
     private double price;
+
+    @Column(name = "quantity")
+    private long quantity;
+
+
 }

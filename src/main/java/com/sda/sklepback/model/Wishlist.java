@@ -12,9 +12,8 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table (name="Tasks")
-public class Item {
-
+@Table(name="Wishlists")
+public class Wishlist {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "ID")
